@@ -1,0 +1,29 @@
+{
+  "name": "pakkajs-dropdown",
+  "version": "1.0.0",
+  "description": "pakkajs based dropdown component",
+  "main": "pakkajs-dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebhaskara/pakkajs-dropdown.git"
+  },
+  "keywords": [
+    "pakkajs",
+    "component",
+    "dropdown",
+    "bootstrap"
+  ],
+  "author": "Bhaskara Rama Sai Busam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebhaskara/pakkajs-dropdown/issues"
+  },
+  "homepage": "https://github.com/thebhaskara/pakkajs-dropdown#readme",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "pakkajs": "^1.1.4"
+  }
+}

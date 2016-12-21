@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Bhaskara UI</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" type="text/css" href="pakkajs-dropdown.css">
+</head>
+
+<body>
+    <h1>Pakkajs based dropdown test</h1>
+    <section class="app">
+        <div bind-component="dropdown"></div>
+    </section>
+    <script src="node_modules/lodash/lodash.js"></script>
+    <script src="node_modules/pakkajs/src/pakka.js"></script>
+    <script src="pakkajs-dropdown.js"></script>
+    <script type="text/javascript">
+    var App = pakka.create('.app'),
+        dropdown = new pakkaDropdown();
+    App.$set('dropdown', dropdown);
+    dropdown.$set('selectedItem', {
+        text: 'Bhaskara'
+    });
+    </script>
+</body>
+
+</html>
